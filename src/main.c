@@ -4,10 +4,10 @@
 
 int main(int argc, char *argv[])
 {
-    printf("Started parsing...");
+    printf("Started parsing...\n");
     get_source_line();
     init_lister(argv[1]);
 
     while (get_source_line());
-    printf("Parsing complete...");
+    printf("Parsing complete...\n");
 }
